@@ -1,0 +1,20 @@
+# Virtual environments
+.venv3d/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# MediaPipe model (large binary, download separately)
+face_landmarker.task
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store

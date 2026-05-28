@@ -1,0 +1,27 @@
+# Face Burn Edge Detection — Requirements
+# Install: pip install -r requirements.txt
+
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=9.0.0
+
+# UNet with pretrained encoders
+segmentation-models-pytorch>=0.3.3
+
+# Augmentation
+albumentations>=1.3.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Dataset download (optional)
+roboflow>=1.1.0
+
+# SAM2 zero-shot (optional, for step2b)
+# pip install git+https://github.com/facebookresearch/sam2.git
+
+# Visualization (optional, for Jupyter)
+matplotlib>=3.7.0
