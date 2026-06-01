@@ -18,3 +18,9 @@ face_landmarker.task
 # OS
 Thumbs.db
 .DS_Store
+
+
+
+*.pth
+*.pt
+*.ckpt

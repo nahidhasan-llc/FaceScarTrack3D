@@ -338,3 +338,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+# python convert_to_3d.py                                      # all patients, PLY + OBJ (default)
+# python convert_to_3d.py --format ply                         # PLY only
+# python convert_to_3d.py --format obj                         # OBJ only
+# python convert_to_3d.py --patient pat1                       # one patient, PLY + OBJ
+# python convert_to_3d.py --patient pat1 --format ply          # one patient, PLY only
+# python convert_to_3d.py --patient pat1 --format obj          # one patient, OBJ only
+# python convert_to_3d.py --overwrite                          # redo all existing files
+# python convert_to_3d.py --dataset "D:/NahidW/Dataset"        # manual dataset path
+# python convert_to_3d.py --dataset "D:/NahidW/Dataset" --patient pat1 --format obj --overwrite
